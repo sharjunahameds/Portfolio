@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharjun Ahamed | Creative Full-Stack Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Professional portfolio of Sharjun Ahamed, a creative Full-Stack Developer specializing in modern glassmorphic web applications, UI/UX design, and clean backend systems.">
+  <meta name="keywords" content="Sharjun Ahamed, Portfolio, Full-Stack Developer, Web Designer, JavaScript, HTML, CSS, Glassmorphism, Freelance Developer">
+  <meta name="author" content="Sharjun Ahamed">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Custom CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <p class="loader-text">LOADING PORTFOLIO</p>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="text-gradient">&lt;</span>Sharjun Ahamed<span class="text-gradient">/&gt;</span>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal active">
+          <p class="hero-subtitle text-gradient">Welcome to my universe</p>
+          <h1 class="hero-title">Hi, I'm <br><span class="text-gradient">Sharjun Ahamed</span></h1>
+          <p class="hero-desc">
+            Transforming ambitious ideas into premium web experiences with a focus on innovation, performance, and user engagement.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">
+              View Work <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Let's Talk 
+            </a>
+          </div>
+        </div>
+        <div class="hero-img-container reveal active">
+          <div class="hero-img-wrapper">
+            <!-- Dynamically generated placeholder illustration in assets/ -->
+            <img src="assets/profile-photo.png" alt="Sharjun Ahamed's Profile Avatar" id="hero-avatar">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-img glass-panel reveal">
+            <!-- Abstract background styling for our avatar image card -->
+            <img src="assets/profile-avatar.png" alt="About Sharjun Ahamed">
+          </div>
+          <div class="about-text reveal">
+            <h3>Turning complex design ideas into seamless web realities.</h3>
+            <p>
+              I am a passionate developer dedicated to crafting modern digital experiences that combine creativity, functionality, and clean architecture. With a strong interest in web technologies, I enjoy transforming ideas into engaging applications that deliver both performance and visual excellence.
+            </p>
+            <p>
+              I believe that exceptional digital products are created when innovation, design, and technology work together seamlessly. As I continue my journey in software development, I strive to create impactful solutions that not only meet user needs but also leave a lasting impression.
+            </p>
+            
+            <!-- Quick-stats counters -->
+<div class="stat-number text-gradient" data-target="40" data-plus>40+</div>
+<div class="stat-label">Leet Problems</div>
+
+<div class="stat-number text-gradient" data-target="4">4</div>
+<div class="stat-label">Projects Built</div>
+
+<div class="stat-number text-gradient" data-target="5" data-plus>5+</div>
+<div class="stat-label">Technologies Learned</div>
+            
+            <div style="margin-top: 2.5rem;">
+              <a href="#contact" class="btn btn-primary">
+                Get In Touch <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title reveal">Technical Skills</h2>
+        <div class="skills-grid">
+          
+          <!-- Frontend Development -->
+          <div class="skills-card glass-panel reveal">
+            <h3><i class="fa-solid fa-code"></i> Languages</h3>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Java</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Python</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">C</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">JavaScript</button></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend & Database -->
+          <div class="skills-card glass-panel reveal">
+            <h3><i class="fa-solid fa-server"></i> Web Technologies</h3>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">HTML & CSS </button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Javascript</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Node.js</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">MongoDB & MySQL</button></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dev Tools & Design -->
+          <div class="skills-card glass-panel reveal">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Git / GitHub</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">VS code</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Linux Command Line</button></span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><button class="skill-btn">Android Studio</button></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title reveal">Projects Done</h2>
+        
+
+
+        <!-- Project Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <div class="project-card glass-panel reveal" data-category="frontend design">
+            <div class="project-img-wrapper">
+              <img src="assets/project1.png" alt="Nova Landing Page">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <h3 class="project-title">LensCore</h3>
+              <p class="project-desc">
+                LensCore is a demo camera showroom website designed to display products with an attractive user interface.
+              </p>
+              <div class="project-links">
+                <a href="https://lens-core.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                </a>
+                <a href="https://github.com/sharjunahameds/LensCore" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-panel reveal" data-category="fullstack">
+            <div class="project-img-wrapper">
+              <img src="assets/project2.png" alt="Quantum Task Organizer">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+              <h3 class="project-title">WarrantyHUB</h3>
+              <p class="project-desc">Warranty HUB is a full-stack warranty management web application that helps users securely store, track, and manage product warranties   </p>
+              <div class="project-links">
+                <a href="https://warranty-hub-pi.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                </a>
+                <a href="https://github.com/sharjunahameds/WarrantyHUB" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glass-panel reveal" data-category="frontend">
+            <div class="project-img-wrapper">
+              <img src="assets/project3.png" alt="Aether Crypto Tracker">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Java</span>
+              </div>
+              <h3 class="project-title">LeetTrack</h3>
+              <p class="project-desc">
+                LeetTrack is a simple Java-based CLI designed to help users track and improve their coding preparation.
+              </p>
+              <div class="project-links">
+
+                <a href="https://github.com/sharjunahameds/LeetTrack/tree/main/LeetTrack" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card glass-panel reveal" data-category="fullstack design">
+            <div class="project-img-wrapper">
+              <img src="assets/project4.png" alt="Eclipse E-commerce Store">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">MySQL</span>
+              </div>
+              <h3 class="project-title">CodePulse</h3>
+              <p class="project-desc">CodePulse is a GUI based Python application that helps users track coding problems, analyze topics, and generate practice plans.             </p>
+              <div class="project-links">
+
+                <a href="https://github.com/sharjunahameds/CodePulse/tree/main" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+      <div class="container">
+        <h2 class="section-title reveal">Education History</h2>
+        <div class="education-timeline">
+          
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <h3 class="education-degree">Bachelor of Computer Science</h3>
+                <span class="education-year">2024 - 2028</span>
+                <span class="education-year">CGPA: 8.2</span>
+              </div>
+              <h4 class="education-school">K Ramakrishnan College of Technology</h4>
+              <p>
+                Currently pursuing Bachelor's degree in Computer Science and Engineering with a strong interest in software development, web technologies, data structures, and problem solving. Actively building projects and expanding knowledge in full-stack development.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <h3 class="education-degree">Higher Secondary Education</h3>
+                <span class="education-year">2023 - 2024</span>
+                <span class="education-year">Percentage: 79%</span>
+              </div>
+              <h4 class="education-school">Santhanam Vidhyalaya</h4>
+              <p>
+                Successfully completed higher secondary education while developing strong analytical, problem-solving, and technical skills
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3-->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <h3 class="education-degree">Secondary School Education</h3>
+                <span class="education-year">2021 - 2022</span>
+                <span class="education-year">Percentage: 91%</span>
+              </div>
+              <h4 class="education-school">Mahathma Gandhi Centenary Vidhyalaya</h4>
+              <p>
+                Successfully completed secondary school with excellent academic performance, reflecting strong discipline, determination, and learning ability.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+          
+          <!-- Contact Left Panel -->
+          <div class="contact-info reveal">
+            
+            <div class="contact-method-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Me</h4>
+                <p>sharjunahamed15@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-method-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h4>My Location</h4>
+                <p>Tiruchirappalli, Tamil Nadu</p>
+              </div>
+            </div>
+
+            <div class="contact-method-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-calendar-check"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Freelance Work</h4>
+                <p>Available on contract</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Right Form Panel -->
+          <div class="contact-form-panel glass-panel reveal">
+            <form id="contact-form" action="https://formspree.io/f/maqzryrb" method="POST">
+              
+              <!-- Name Input -->
+              <div class="form-group">
+                <input type="text" id="name" name = "name" class="form-input" placeholder=" " required>
+                <label for="name" class="form-label">Full Name</label>
+                <span class="form-error-msg">Please enter your name</span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                <label for="email" class="form-label">Email Address</label>
+                <span class="form-error-msg">Please enter a valid email address</span>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" class="form-input" placeholder=" " required>
+                <label for="subject" class="form-label">Subject</label>
+                <span class="form-error-msg">Please enter a subject</span>
+              </div>
+
+              <!-- Message Input -->
+              <div class="form-group">
+                <textarea id="message" name="message" class="form-input" placeholder=" " required></textarea>
+                <label for="message" class="form-label">Your Message</label>
+                <span class="form-error-msg">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div id="form-status" class="form-status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scroll-to-Top Button -->
+  <div id="scroll-top-btn" class="glass-panel" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#hero" class="logo">
+        <span class="text-gradient">&lt;</span>Sharjun Ahamed<span class="text-gradient">/&gt;</span>
+      </a>
+      
+      <!-- Footer Nav Links -->
+      <ul class="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Social Media Icons -->
+      <div class="social-links">
+        <a href="https://github.com/sharjunahameds" class="social-icon glass-panel" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sharjun-ahamed-s-920196334?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-icon glass-panel" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container footer-copyright">
+      <p>&copy; 2026 Sharjun Ahamed. Crafted with passion & glassmorphism.</p>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
